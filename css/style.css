@@ -269,20 +269,22 @@ section{
     color: #eee;
 }
 
-
 .wrapper {
   width: 95%;
   margin: 0 auto;
 }
+
 #search-container {
   margin: 1em 0;
 }
+
 #search-container input {
   background-color: transparent;
   width: 90%;
   border-bottom: 2px solid #110f29;
   padding: 1em 0.3em;
 }
+
 #search-container button .btn {
   margin-left: 1em;
   margin-top: 0.5em;
@@ -291,6 +293,7 @@ section{
 .button-value .btn{
   border: var(--border);
 }
+
 .button-value:focus{
     background-color: var(--blue);
 }
@@ -298,12 +301,14 @@ section{
 .button-value:hover{
   background-color: var(--blue);
 }
+
 #products {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-column-gap: 1.5em;
   padding: 2em 0;
 }
+
 .card {
   background-color: #ffffff;
   max-width: 40rem;
@@ -314,30 +319,32 @@ section{
   text-align: center; 
   color: var(--black);
 }
+
 .card:hover{
     outline: 8px solid var(--blue);
     outline-offset: 14px;
     transition: 0.4s;
 }
+
 .image-container {
   text-align: center;
 }
+
 img {
   max-width: 100%;
   object-fit: contain;
   
 }
+
 .container {
   padding-top: 1em;
   color: #110f29;
 }
 
-
 .container h5 {
     font-size: 2.5rem;
     color: var(--black);
 }
-
 
 .container h6 {
     font-size: 2.5rem;
@@ -355,7 +362,6 @@ img {
 .hide {
   display: none;
 }
-
 
 .vehicles .vehicles-slider{
     padding-bottom: 5rem;
