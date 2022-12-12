@@ -32,10 +32,10 @@
 
       <nav class="navbar">
         <a href="#home">home</a>
+        <a href="#search">search</a>
         <a href="#vehicles">vehicles</a>
         <a href="#services">services</a>
-        <a href="#featured">featured</a>
-        <a href="#reviews">reviews</a>
+        <a href="#featured">featured</a>     
         <a href="#contact">contact</a>
       </nav>
 
@@ -72,7 +72,6 @@
       <div class="home_img">
         <img class="home-parallax" src="img/home_2.png" alt="" />
       </div>
-      <a href="#" class="btn home-parallax"> explore cars </a>
     </section>
 
     <!--company info-->
@@ -110,6 +109,35 @@
         </div>
       </div>
     </section>
+
+    <!--search-->
+
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search by car name here.."
+        />
+        <button id="search" class="btn">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value btn" onclick="filterProduct('all')">All</button>
+        <button class="button-value btn" onclick="filterProduct('sports')">
+          Sports
+        </button>
+        <button class="button-value btn" onclick="filterProduct('supercar')">
+          Supercar
+        </button>
+        <button class="button-value btn" onclick="filterProduct('compact')">
+          Compact
+        </button>
+        <button class="button-value btn" onclick="filterProduct('hypercar')">
+          Hypercar
+        </button>
+      </div>
+      <div id="products"></div>
+    </div>
 
     <!--vehicles-->
 
@@ -397,7 +425,7 @@
       <h3>subscribe for latest news</h3>
 
       <form action="">
-        <input type="email" placeholder="enter your email" name="" id="" />
+        <input type="email" placeholder="Enter Your Email" name="" id="" />
         <input type="submit" name="" class="subscribe" id="" value="submit" />
       </form>
     </section>
@@ -442,6 +470,7 @@
             <div class="box">
                 <h3>quick links</h3>
                 <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> search </a>
                 <a href="#"> <i class="fas fa-arrow-right"></i> vehicles </a>
                 <a href="#"> <i class="fas fa-arrow-right"></i> services </a>
                 <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
@@ -449,14 +478,14 @@
             </div>
 
             <div class="box">
-                <h3>quick links</h3>
+                <h3>contacts</h3>
                 <a href="#"> <i class="fas fa-phone"></i> +351 123456789 </a>
                 <a href="#"> <i class="fas fa-envelope"></i> Carrocinha@tudo.com </a>
                 <a href="#"> <i class="fas fa-map-marker-alt"></i> ericeira, portugal - 0000-00 </a>                        
             </div>
 
             <div class="box">
-                <h3>quick links</h3>
+                <h3>social media</h3>
                 <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>                     
                 <a href="#"> <i class="fab fa-twitter"></i> twitter </a>                     
                 <a href="#"> <i class="fab fa-instagram"></i> instagram </a>                     
