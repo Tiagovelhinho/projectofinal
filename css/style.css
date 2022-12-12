@@ -275,19 +275,19 @@ section{
 }
 
 #search-container {
-  margin: 1em 0;
+  margin: 1rem 0;
 }
 
 #search-container input {
   background-color: transparent;
   width: 90%;
   border-bottom: 2px solid #110f29;
-  padding: 1em 0.3em;
+  padding: 1rem 0.3rem;
 }
 
 #search-container button .btn {
-  margin-left: 1em;
-  margin-top: 0.5em;
+  margin-left: 1rem;
+  margin-top: 0.5rem;
 }
 
 .button-value .btn{
@@ -305,8 +305,8 @@ section{
 #products {
   display: grid;
   grid-template-columns: auto auto auto;
-  grid-column-gap: 1.5em;
-  padding: 2em 0;
+  grid-column-gap: 1.5rem;
+  padding: 2rem 0;
 }
 
 .card {
@@ -353,7 +353,7 @@ img {
     font-weight: bolder;
   }
 
-  .container h7 {
+.container h7 {
     font-size: 2rem;
     color: var(--light-blue);
     font-weight: bolder;
