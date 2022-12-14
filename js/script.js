@@ -1,67 +1,67 @@
 let products = {
   data: [
     {
-      productName: "blue bang bang",
-      category: "sports",
+      productName: "Classe S",
+      category: "mercedes",
       price: "15000",
-      fuel:"gasoline",
+      fuel:"petrol",
       image: "img/car-1.png",
     },
     {
-      productName: "white swanky",
-      category: "supercar",
+      productName: "diablo",
+      category: "lamborghini",
       price: "25000",
       fuel:"diesel",
       image: "img/car-2.png",
     },
     {
-      productName: "slow yellow",
-      category: "compact",
+      productName: "x5",
+      category: "BMW",
       price: "9999",
-      fuel:"gasoline",
+      fuel:"petrol",
       image: "img/car-3.png",
     },
     {
-      productName: "sea velvet",
-      category: "sports",
+      productName: "C 250",
+      category: "mercedes",
       price: "20000",
       fuel:"diesel",
       image: "img/car-4.png",
     },
     {
-      productName: "flash",
-      category: "hypercar",
+      productName: "centodieci",
+      category: "bugatti",
       price: "60000",
-      fuel:"gasoline",
+      fuel:"petrol",
       image: "img/car-5.png",
     },
     {
-      productName: "burning black",
-      category: "supercar",
+      productName: "countach",
+      category: "lamborghini",
       price: "29000",
       fuel:"diesel",
-      image: "img/vehicle-5.png",
+      image: "img/car-6.png",
     },
     {
-      productName: "greenish power",
-      category: "hypercar",
+      productName: "veyron",
+      category: "bugatti",
       price: "31000",
       fuel:"diesel",
       image: "img/car-7.png",
     },
     {
-      productName: "grey shot",
-      category: "supercar",
+      productName: "sian",
+      category: "lamborghini",
       price: "28000",
-      fuel:"gasoline",
+      fuel:"petrol",
       image: "img/car-8.png",
     },
     {
-      productName: "pow pow",
-      category: "compact",
+      productName: "x3",
+      category: "BMW",
       price: "13000",
       fuel:"diesel",
-      image: "img/vehicle-6.png",
+      image: "img/car-9.png",
     },
   ],
 };
@@ -131,7 +131,7 @@ for (let i of products.data) {
   //product name
   let name = document.createElement("h5");
   name.classList.add("product-name");
-  name.innerText = i.productName.toUpperCase();
+  name.innerText ="Modelo: " + i.productName.toUpperCase();
   container.appendChild(name);
   //price
   let price = document.createElement("h6");
@@ -140,7 +140,7 @@ for (let i of products.data) {
   //fuel
   let fuel = document.createElement("h7");
   fuel.classList.add("fuel");
-  fuel.innerText = i.fuel.toUpperCase();
+  fuel.innerText ="Fuel: " + i.fuel.toUpperCase();
   container.appendChild(fuel);
 
   card.appendChild(container);
